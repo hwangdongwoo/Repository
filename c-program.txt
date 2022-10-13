@@ -12,5 +12,5 @@ int main(void)
 	int num = Sum(n1, n2);
 
 	printf("3+4=%d\n", num);
-	printf("100+200=%d\n", Sum(100, 200));
+	printf("100+300=%d\n", Sum(100, 300));
 }

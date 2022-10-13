@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int Sum(int num1, int num2)
+{
+	int num3 = num1 + num2;
+	return num3;
+}
+
+int main(void)
+{
+	int n1 = 3, n2 = 4;
+	int num = Sum(n1, n2);
+
+	printf("3+4=%d\n", num);
+	printf("100+200=%d\n", Sum(100, 200));
+}
